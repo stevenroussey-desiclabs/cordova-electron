@@ -1,6 +1,6 @@
 {
   "name": "cordova-electron",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "electron apps as a target for cordova developers",
   "main": "bin/templates/cordova/Api.js",
   "bin": "bin/create",
@@ -24,24 +24,24 @@
   },
   "dependencies": {
     "cordova-common": "^3.1.0",
-    "electron": "^4.0.1",
-    "electron-builder": "^20.38.4",
+    "electron": "^5.0.0",
+    "electron-builder": "^20.39.0",
     "fs-extra": "^7.0.1",
     "nopt": "^4.0.1",
-    "shelljs": "^0.5.3"
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
     "eslint-config-semistandard": "^13.0.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
-    "jasmine": "^3.3.1",
-    "nyc": "^13.1.0",
+    "jasmine": "^3.4.0",
+    "nyc": "^14.0.0",
     "rewire": "^4.0.1",
-    "tmp": "^0.0.33"
+    "tmp": "^0.1.0"
   },
   "author": "Apache Software Foundation",
   "contributors": [
